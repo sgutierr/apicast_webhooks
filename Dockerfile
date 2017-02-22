@@ -1,6 +1,6 @@
 # This is an example of adding APICAST modifications
 
-FROM quay.io/3scale/apicast:v3.0.0-alpha2
+FROM quay.io/3scale/apicast:master
 
 USER root
 
