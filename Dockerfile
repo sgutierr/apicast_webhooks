@@ -10,7 +10,7 @@ RUN rm -rf /opt/app-root/src/logs
 USER default
 
 # Copy LUA source code to the appropriate directory
-COPY /webhooks /opt/app-root/src/src/
+COPY /lua /opt/app-root/src/src/
 WORKDIR /opt/app-root/src/src/
 
 COPY /conf/webhooks.conf /opt/app/sites.d
